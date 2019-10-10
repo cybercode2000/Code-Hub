@@ -1,0 +1,333 @@
+doctype html
+html
+  head
+    title Code Hub
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+    meta(name="description" content="Code hub we train upcoming programmers")
+    meta(name="author" content="cybercode2000")
+    link(rel="shortcut icon" href="./image/logo.png" type="image/x-icon")
+    link(rel="stylesheet" href="./style.css")
+    link(href="https://fonts.googleapis.com/css?family=Oxygen:400,700&display=swap&subset=latin-ext" rel="stylesheet")
+    link(href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet")
+    //- link(rel="stylesheet", href="./css/bootstrap.min.css")
+    link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous")
+
+  body
+
+    header.wrapper
+      nav.container.navbar.navbar-expand-md
+        a.navbar-brand.logo(href="index.html")
+          img(src="./image/logo.png") 
+        button(class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#myNavBar")
+          span(class="navbar-toggler-icon")
+        div(class="collapse navbar-collapse" id="myNavBar")
+          ul(class="navbar-nav ml-auto nav-area")
+            li 
+              a(id="home" href="index.html") Home
+            li 
+              a(href="tutorials.html") Tutorial
+            li
+              a(href="about.html") Classroom
+            li
+              a(href="signup.html") Blog
+            li
+              a(href="signup.html") About
+            li 
+              a(href="signup.html") Sign Up
+            li 
+              a(href="/signin") Sign In
+            li 
+              a(href="#" data-toggle="modal" data-target=".damicode") 
+                i(class="fas fa-search")
+
+              div(class="modal fade damicode" tabindex="-1" role="dialog" aria-hidden="true")
+                div(class="modal-dialog modal-lg")
+                  div(class="modal-content" style="heigh: 200px")
+                    div.container.text-center
+                    //-   p.text-center Search Here
+                    //- input(type="text" placeholder="Seach Here")
+                    //-   span.fas.fa-search    
+      
+      div.d-flex.justify-content-center.align-items-center.text-center.welcome-text       
+        div
+          h1.text-center.font-weight-bold.text-uppercase.text-light(id="codehub") Code Hub
+          p.font-italic.m-0.p-0.text-light.text Join the largest community of mobile code learners today
+          p.font-italic.m-0.p-0.text-light.text welcome to the world of computing
+          a.text-uppercase.mt-3.font-weight-normal(id="btn1" href="tutorials.html") Get Started 
+            span.fas.fa-arrow-right.ml-1(style="display: none" id="arrow")
+  
+  p.text-center.font-weight-bold.header Meet our Instructors
+  section.d-flex.justify-content-center.content
+    div 
+      a(href="mark1.jpg")
+        img(id="image1" src="./image/mark1.jpg" alt="mark1")
+        
+    div.text-justify.main
+      p(id="name").text-center.font-weight-bold Mark Zuckerberg
+      p The main man behind the Facebook
+      p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus voluptate ut, dolore autem optio blanditiis aliquid nesciunt porro dolorem cum assumenda nam ab, reprehenderit quasi repellat accusamus laudantium quo eum?
+      a(id="button" href="#") Contact me
+        
+        
+  section.d-flex.content1
+    div.main1
+      p.text-center.font-weight-bold(id="name") Bill Gate
+      p The main man behind the Microsoft
+      p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus voluptate ut, dolore autem optio blanditiis aliquid nesciunt porro dolorem cum assumenda nam ab, reprehenderit quasi repellat accusamus laudantium quo eum?
+      a(id="button" href="#") Contact me
+    a(href="./image/billgate.jpg")
+      img(id="image2" src="./image/billgate.jpg" alt="mark1")
+
+  section.d-flex.content.justify-content-center 
+    a(href="google.jpg")
+        img(id="image3" src="./image/google.jpg" alt="mark1")
+    div.text-justify.main2
+      p(id="name").text-center.font-weight-bold Sudan Pichai
+      p The main man behind the Google
+      p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus voluptate ut, dolore autem optio blanditiis aliquid nesciunt porro dolorem cum assumenda nam ab, reprehenderit quasi repellat accusamus laudantium quo eum?
+      a(id="button" href="#") Contact me
+
+  section.container.justify-content-center.course
+    p.text-center.font-weight-bold.text-uppercase(style="font-size: 30px;") Browse Our Top Course
+    div.row.d-flex.justify-content-center.ml-5.align-items-center
+      div(id="carouselExampleControls" data-ride="carousel").carousel.slide
+        div.carousel-inner
+          div.carousel-item.active
+            div.card.col-3.col-10-md.html            
+              img.img.img-rounded.mb-2.mt-3(src="./image/html.png" alt="HTML")
+              div.yes
+                p(id="card-head head" style="font-size: 20px; font-weight: bold;") Html Tutorial
+                p.text-justify.card-text.mb-4 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas consequuntur sunt officiis dolorum optio quasi illo reiciendis dolore beatae hic, dicta ut commodi ea iure aliquam sit voluptas voluptatibus ipsa.
+                a(id="button1" href="#") Take This Course
+            div.card.col-3.col-10-md.css
+              img.img.img-rounded.mb-2.mt-3(src="./image/css.png" alt="CSS")
+              div.yes
+                p(id="card-head head" style="font-size: 20px; font-weight: bold;") Css Tutorial
+                p.text-justify.card-text.mb-4 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas consequuntur sunt officiis dolorum optio quasi illo reiciendis dolore beatae hic, dicta ut commodi ea iure aliquam sit voluptas voluptatibus ipsa.
+                a(id="button1" href="#") Take This Course
+            div.card.col-3.col-10-md.js
+              img.img.img-rounded.mb-2.mt-2(src="./image/js.png" alt="JAVASCRIPT")
+              div.yes
+                p.card-head.mt-2(style="font-size: 20px; font-weight: bold;") Javascript Tutorial
+                p.text-justify.card-text.mb-4 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas consequuntur sunt officiis dolorum optio quasi illo reiciendis dolore beatae hic, dicta ut commodi ea iure aliquam sit voluptas voluptatibus ipsa.
+                a(id="button1" href="#") Take This Course
+          div.carousel-item
+            div.card.col-3.col-10-md.html
+              img.img.img-rounded.mb-2.mt-3(src="./image/php.png" alt="PHP")
+              div.yes
+                p.card-head.head(style="font-size: 20px; font-weight: bold;") PHP Tutorial
+                p.text-justify.card-text Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas consequuntur sunt officiis dolorum optio quasi illo reiciendis dolore beatae hic, dicta ut commodi ea iure aliquam sit voluptas voluptatibus ipsa.
+                a(id="button1" href="#") Take This Course
+            div.card.col-3.col-10-md.css
+              img.img.img-rounded.mb-2.mt-3(src="./image/java.png" alt="JAVA")
+              div.yes
+                p.card-head.head(style="font-size: 20px; font-weight: bold;") JAVA Tutorial
+                p.text-justify.card-text Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas consequuntur sunt officiis dolorum optio quasi illo reiciendis dolore beatae hic, dicta ut commodi ea iure aliquam sit voluptas voluptatibus ipsa.
+                a(id="button1" href="#") Take This Course
+            div.card.col-3.col-10-md.js
+              img.img.img-rounded.mb-2.mt-2(src="./image/py.png" alt="")
+              div.yes
+                p.card-head.mt-2(style="font-size: 20px; font-weight: bold;") PYTHON Tutorial
+                p.text-justify.card-text Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas consequuntur sunt officiis dolorum optio quasi illo reiciendis dolore beatae hic, dicta ut commodi ea iure aliquam sit voluptas voluptatibus ipsa.
+                  a(id="button1" href="#") Take This Course
+    
+  div.view.d-flex.justify-content-center
+    a(href="tutorials.html") View All Our Courses
+
+  div.carousel.slide.mb-5(data-ride="carousel")
+    div.carousel-inner
+      div.carousel-item.justify-content-center.align-items-center.koko2
+           div.d-flex.justify-content-center.align-items-center.text-center.welcome-text(style="height: 100vh;")       
+            div
+              h1.text-center.font-weight-bold.text-uppercase.text-light(id="codehub") Your Class is only a Click Away
+              span.mt-2.font-italic.m-0.p-0.text-center.text-light.text(style="font-size: 30px; font-family: arial") Join Our online classroom with a single click
+              br
+              span.font-italic.m-0.p-0.text-center.text-light(style="font-size: 30px; font-family: arial") welcome to the classroom
+              br
+              a.mt-3(style="font-weight: normal" id="btn1" href="tutorials.html") INSTRUCTORS: FREE SIGN UP
+                span.fas.fa-arrow-right.ml-1
+              a.mt-3.ml-3(style="font-weight: normal" id="btn1" href="tutorials.html") STUDENT: ENTER ACCESS CODE
+                span.fas.fa-arrow-right.ml-1
+      div.carousel-item.justify-content-center.align-items-center.koko1
+        div.d-flex.justify-content-center.align-items-center.text-center.welcome-text(style="height: 100vh;")     
+          div
+            h1.text-center.font-weight-bold.text-uppercase.text-light(id="codehub") Join Over 200,000 user learning to code with our Website Today
+            span.font-italic.m-0.p-0.text-center.text-light(style="font-size: 30px; font-family: arial") welcome to the world of computing
+            br
+            a.mt-3.ml-3(style="font-weight: normal" id="btn1" href="tutorials.html") JOIN NOW
+              span.fas.fa-arrow-right.ml-1
+      
+      div.carousel-item.active.justify-content-center.align-items-center.koko3
+        div.d-flex.justify-content-center.align-items-center.text-center.welcome-text(style="height: 100vh;")     
+          div
+            h1.text-center.font-weight-bold.text-uppercase.text-light(id="codehub") DO YOU FEEL TOO CONFIDENT?
+            span.font-italic.m-0.p-0.text-center.text-light(style="font-size: 20px; font-family: arial") DO YOU NEED SOMETHING TO TEST YOU MAYBE YOU ARE CAPABLE?
+            br
+            span.font-italic.m-0.p-0.text-center.text-light(style="font-size: 18px; font-family: arial") KINDLY USE OUR CBT APPLICATION  
+            br          
+            a.mt-3.ml-3(style="font-weight: normal" id="btn1" href="tutorials.html") JOIN NOW
+              span.fas.fa-arrow-right.ml-1
+
+
+  section.container-fluid.aboutform
+    div.container
+      div.row
+        div.col-6
+          div.firstext
+            div.text-light
+              span Talk to us
+              p whether you need a full product, consultation, tech investments or an extended team, our experts will help you find the best solutions.
+             
+        div.col-5.text-light.secondext 
+          label Your name 
+            br
+            input(id="cname" type="text") 
+            br
+          label Email address 
+            br
+            input(id="cemail" type="email") 
+            br
+          label How can we help you?
+            br
+            textarea(id="comment" cols="30" rows="10")
+            br
+          button(id="we" style="width: 86%;") Submit
+          p(id="the") we'll never share your email to anyone else
+            
+  div(id="title" style="margin-top: 5%; display: none; background: rgba(69, 159, 189, 0.918);")
+    center
+      span(style="font-family: Roboto; font-size: 50px; font-weight: bold; text-align: center;")
+        u Message Sent
+      p(id="result" style="margin-top: 5px; font-family: arial; font-size: 18px; padding: 5%; padding-top: 10px; text-align: justify;")
+    
+  section.container.course
+    p.text-center.GOOD(style="font-size: 28px;") YOU ARE IN GOOD COMPANY. 
+      br
+    p(style="font-size: 28px;").text-center Over 
+      span.font-weight-bold(style="font-size: 28px;").text-center 30,000,000 
+      span(style="font-size: 28px;").text-center learners all over the world use our apps on all types of devices. 
+  div(id="carouselExampleControls" class="carousel slide" data-ride="carousel")
+    div.carousel-inner
+      div.carousel-item.active
+        div.container-fluid     
+          div.row.d-flex.justify-content-center.align-items-center
+            div.card.col-3.comment
+              p.text-left
+                img(id="image" src="./image/image1.jpg" alt="image1") 
+                span.lead.font-weight-bold.ml-3 Waliyilahi
+              p.text-justify(style="font-family: arial;") Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis nulla similique minus distinctio earum dignissimos reiciendis hic placeat vero! Libero exercitationem voluptate amet modi dicta qui magnam ullam fugiat minus?
+                    
+            div.card.col-3.comment
+              p.text-left
+                img(id="image" src="./image/image2.jpg" alt="image1") 
+                span.lead.font-weight-bold.ml-3 Damicode
+              p.text-justify(style="font-family: arial;") Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis nulla similique minus distinctio earum dignissimos reiciendis hic placeat vero! Libero exercitationem voluptate amet modi dicta qui magnam ullam fugiat minus?
+            
+            div.card.col-3.comment
+              p.text-left
+                img(id="image" src="./image/image3.jpg" alt="image1") 
+                span.lead.font-weight-bold.ml-3 Angela Yu
+              p.text-justify(style="font-family: arial;") Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis nulla similique minus distinctio earum dignissimos reiciendis hic placeat vero! Libero exercitationem voluptate amet modi dicta qui magnam ullam fugiat minus?
+                        
+      div.carousel-item
+        div.container-fluid
+          div.row.d-flex.justify-content-center.align-items-center
+            div.card.col-3.comment
+              p.text-left
+                img(id="image" src="./image/image4.jpg" alt="image1") 
+                span.lead.font-weight-bold.ml-3 Angela Yu
+              p.text-justify(style="font-family: arial;") Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis nulla similique minus distinctio earum dignissimos reiciendis hic placeat vero! Libero exercitationem voluptate amet modi dicta qui magnam ullam fugiat minus?
+            div.card.col-3.comment
+              p.text-left 
+                img(id="image" src="./image/image5.jpg" alt="image1") 
+                span.lead.font-weight-bold.ml-3 Angela Yu
+              p.text-justify(style="font-family: arial;") Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis nulla similique minus distinctio earum dignissimos reiciendis hic placeat vero! Libero exercitationem voluptate amet modi dicta qui magnam ullam fugiat minus?
+            div.card.col-3.comment
+              p.text-left
+                img(id="image" src="./image/image6.jpg" alt="image1") 
+                span.lead.font-weight-bold.ml-3 Angela Yu
+              p.text-justify(style="font-family: arial;") Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis nulla similique minus distinctio earum dignissimos reiciendis hic placeat vero! Libero exercitationem voluptate amet modi dicta qui magnam ullam fugiat minus?
+
+  section.container-fluid.text-center.mt-5.become
+    div.container.d-flex.align-items-center.justify-content-center(style="height: 35vh;")
+      div
+        p.font-weight-bold Become a Member of our Great Community
+          div.view
+            a(href="tutorials.html") Start Learning Now
+            
+  footer.container-fluid.pt-5.footer3
+    div.container
+      div.row
+        div.col-3
+          p.font-weight-bold.lead.text-light.h2.mb-4(style="font-size: 25px;") CODEHUB
+          select(style="border: 0px; width: 120px; height: 30px;")
+            option(value="") English
+            option(value="") Yoruba
+            option(value="") India
+            option(value="") Portugal
+
+        div.col-3
+          p.font-weight-bold.lead.text-dark(style="font-size: 25px;") CodeHub 
+          br
+          a(href="About") About
+          br
+          a(href="bussiness") CodeHub for Bussiness
+          br
+          a(href="affilates") Discuss
+          br
+          a(href="open") Classroom
+          br
+          a(href="#") Carrers
+          br
+          a(href="") Blog
+
+        div.col-3
+          p.font-weight-bold.text-dark.lead(style="font-size: 25px;") Legal
+          br
+          a(href="About") Terms of Service & Honor
+          br
+          a(href="bussiness") Code
+          br
+          a(href="affilates") Privacy Policy
+          br
+          a(href="open") Accessibility Policy
+          br
+          a(href="#") Trademark Policy
+          br
+          a(href="") Sitemap
+
+        div.col-3
+          p.font-weight-bold.text-dark.lead(style="font-size: 25px;") Connect
+          br
+          a(href="About") About us
+          br
+          a(href="bussiness") Contact Us 
+          br
+          a(href="affilates") Help Center 
+          br
+          a(href="open") Developer
+          br
+          a(href="#") Donate
+          br
+
+      hr
+      div.socialimg
+        p.font-weight-bold.text-center.text-light For more information about Us 
+          br
+          span you can follow us on
+        div.d-flex.justify-content-center
+          div
+            a(href="#")
+              i.fab.fa-facebook.text-light.fa-10px.ml-3
+            a(href="#")
+              i.fa.fa-twitter.fa-10px.ml-3.fa-light
+            a(href="#")
+              i.fa.fa-instagram.fa-10px.ml-3.fa-light
+      hr
+      p.text-center.text-dark.font-weight-bold(style="font-family: arial") CODEHUB &copy 2019 All Right Reserved
+
+  script(src="./js/frontpage.js")
+  script(src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous")
+  script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous")
+  script(src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous")

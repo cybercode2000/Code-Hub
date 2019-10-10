@@ -1,0 +1,29 @@
+{
+  "name": "code-hub",
+  "version": "1.0.0",
+  "description": "training upcoming programmer",
+  "main": "server.js",
+  "dependencies": {
+    "config": "^3.2.3",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "joi": "^14.3.1",
+    "mongoose": "^5.7.4",
+    "nodemon": "^1.19.3",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm start",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "www.github.com/cybercode2000/code-hub"
+  },
+  "keywords": [
+    "damicode"
+  ],
+  "author": "Cybercode",
+  "license": "ISC"
+}
